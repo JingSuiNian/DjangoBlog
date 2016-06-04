@@ -1,4 +1,4 @@
-from MyBlog.view import hello
+from MyBlog.views import hello
 from django.conf.urls import patterns, include
 from django.contrib import admin
 
