@@ -17,9 +17,4 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "BlogNian.settings")
 
 from django.core.wsgi import get_wsgi_application
 
-if os.environ['mod_wsgi.process_group'] != '':
-    import signal
-
-    os.kill(os.getpid(), signal.SIGINT)
-
 application = get_wsgi_application()
