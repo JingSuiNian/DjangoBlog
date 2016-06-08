@@ -11,6 +11,7 @@ import os
 import sys
 
 sys.path.append("/usr/local/lib/python2.7/site-packages/MySQLdb/")
+sys.path.append("/usr/local/lib/python2.7/site-packages/Django-1.7.11-py2.7.egg/")
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "BlogNian.settings")
 
