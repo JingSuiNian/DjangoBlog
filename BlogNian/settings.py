@@ -66,10 +66,13 @@ DATABASES = {
     }
 }
 
+TEMPLATE_DIRS = [
+    '/root/Nian/DjangoBlog/templates',
+]
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["/root/Nian/DjangoBlog/templates", ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
