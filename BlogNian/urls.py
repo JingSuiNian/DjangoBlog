@@ -1,4 +1,5 @@
 from MyBlog.views import index
+from MyBlog.views import post
 from django.conf.urls import patterns, include
 from django.contrib import admin
 
@@ -9,4 +10,5 @@ urlpatterns = patterns('',
 
                        (r'^admin/', include(admin.site.urls)),
                        ('^index.html/$', index),
+                       ('^post/$', post),
                        )
